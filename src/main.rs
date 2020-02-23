@@ -16,7 +16,7 @@
 
 use crate::routeguide::route_guide_client::RouteGuideClient;
 use crate::routeguide::{Point, Rectangle, RouteNote};
-use futures::stream;
+use futures_util::stream;
 use rand::prelude::*;
 use std::future::Future;
 use tokio::runtime::Runtime;
